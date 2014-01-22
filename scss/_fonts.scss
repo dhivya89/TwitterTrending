@@ -1,0 +1,91 @@
+/***************/
+/**** FONTS ****/
+/***************/
+
+@font-face {
+	font-family: Caesar;
+	src: url("/fonts/caesar.eot");
+	src: local("☺"),
+		url("/fonts/caesar.ttf") format("truetype"),
+		url("/fonts/caesar.woff") format("woff"),
+		url("/fonts/caesar.svg#darkage") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Museo;
+	src: url('/fonts/museo_slab_500-webfont.eot');
+	src: url('/fonts/museo_slab_500-webfont.eot?iefix') format('eot'),
+		 url('/fonts/museo_slab_500-webfont.woff') format('woff'),
+		 url('/fonts/museo_slab_500-webfont.ttf') format('truetype'),
+		 url('/fonts/museo_slab_500-webfont.svg#webfont4rRpUBPk') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Chopin;
+	src: url('/fonts/ChopinScript-webfont.eot');
+	src: url('/fonts/ChopinScript-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/ChopinScript-webfont.woff') format('woff'),
+		 url('/fonts/ChopinScript-webfont.ttf') format('truetype'),
+		 url('/fonts/ChopinScript-webfont.svg#ChopinScriptRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Typo;
+	src: url('/fonts/TypoSlabserif-Light-webfont.eot');
+	src: url('/fonts/TypoSlabserif-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/TypoSlabserif-Light-webfont.woff') format('woff'),
+		 url('/fonts/TypoSlabserif-Light-webfont.ttf') format('truetype'),
+		 url('/fonts/TypoSlabserif-Light-webfont.svg#TypoSlabserifLightRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Yorkville;
+	src: url('/fonts/yorkville.eot');
+	src: url('/fonts/yorkville.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/yorkville.woff') format('woff'),
+		 url('/fonts/yorkville.ttf') format('truetype'),
+		 url('/fonts/yorkville.svg#yorkville') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Geosans;
+	src: url('/fonts/geosanslight-webfont.eot');
+	src: url('/fonts/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/geosanslight-webfont.woff') format('woff'),
+		 url('/fonts/geosanslight-webfont.ttf') format('truetype'),
+		 url('/fonts/geosanslight-webfont.svg#GeosansLightRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Tiza;
+	src: url('/fonts/tiza-webfont.eot');
+	src: url('/fonts/tiza-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/tiza-webfont.woff') format('woff'),
+		 url('/fonts/tiza-webfont.ttf') format('truetype'),
+		 url('/fonts/tiza-webfont.svg#TizaRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Starcraft;
+	src: url('/fonts/starcraft-webfont.eot');
+	src: url('/fonts/starcraft-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/starcraft-webfont.woff') format('woff'),
+		 url('/fonts/starcraft-webfont.ttf') format('truetype'),
+		 url('/fonts/starcraft-webfont.svg#StarcraftNormal') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

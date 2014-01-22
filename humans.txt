@@ -1,0 +1,12 @@
+/* TEAM */
+Developer/Designer: Joseph Spens
+Site: http://www.spens.us/
+Twitter: @joespens
+Location: Rochester, New York, USA
+
+
+/* SITE */
+Last update: 2012/06/21
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery, Foutbgone, Ember, Handlebars, SASS, HTML5 Boilerplate
+Software: Sublime Text 2, MAMP PRO, Mozilla Firefox 13, Google Chrome 19, GitHub

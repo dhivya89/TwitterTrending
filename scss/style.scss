@@ -1,0 +1,55 @@
+// HTML5Boilerplate CSS Reset
+@import "reset";
+
+/****************************************************************************************************************************************************************/
+/**| Style |*****************************************************************************************************************************************************/
+/**| Author: Joe Spens	 				|************************************************************************************************************************/
+/**| Author URI: http://spens.us/		|************************************************************************************************************************/
+/**| Version: 1.0						|************************************************************************************************************************/
+/****************************************************************************************************************************************************************/
+
+// External Fonts
+@import "fonts";
+
+$background-color: lighten(#ffd373,10%);
+$primary-color: #ff8073;
+$secondary-color: #015666;
+
+@mixin transition($property,$duration) {
+	-webkit-transition: $property $duration linear;
+	-moz-transition: $property $duration linear;
+	-o-transition: $property $duration linear;
+	-transition: $property $duration linear;
+}
+
+body { background-color:$background-color;color:$secondary-color;font-family:Helvetica,sans-serif;border-left:4px solid #fff;
+	#container { background-color:$secondary-color;overflow:auto;width:1060px;
+		nav { float:left;width:280px;background-color:$secondary-color;font-size:1.3em;
+			ul { position:fixed;left:0px;width:284px;box-shadow:2px 0px 5px rgba($secondary-color,.8);height:100%;padding-top:30px;
+				li { cursor:pointer;padding:3px 10px;border-left:4px solid #fff;color:#fff;
+					&:hover { border-left-color:$primary-color;color:$primary-color; }
+				}
+			}
+		}
+		section { float:left;width:740px;padding-left:30px;margin-left:280px;padding-right:10px;font-size:1.5em;background-color:$background-color;height:100%;
+			h1 { margin:40px 0px 20px;font-size:3em;font-family:Geosans;text-align:center; }
+			ul {
+				li { margin-bottom:40px;z-index:1;
+					div { background-color:$primary-color;padding:10px 10px;border-radius:5px;box-shadow:2px 2px 2px rgba($secondary-color,.5);@include transition(background-color,.2s);z-index:5;position:relative;
+						//&:hover { background-color:lighten($primary-color,10%); }
+					}
+					p { font-size:.6em;background-color:lighten($primary-color,10%);z-index:1;padding:10px 10px;border-radius:0px 0px 5px 5px;box-shadow:2px 2px 2px rgba($secondary-color,.5);width:90%;margin:0px auto;
+						span { font-weight:bold; }
+					}
+				}
+				
+			}
+		}
+	}
+}
+
+// END STYLING
+
+
+// Media Queries
+@import "media_queries";
